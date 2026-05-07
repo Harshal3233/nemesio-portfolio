@@ -13,25 +13,25 @@ const inter = Inter({
 
 const filmWorks = [
   {
-    title: "BLACK SHEEP",
-    role: "",
-    embedUrl: "https://drive.google.com/file/d/1-9A4g6UvaphbcYkc2LI_Qk36G9ajJBFJ/preview",
+    title: "BLACK SHEEP TEASER 2",
+    role: "Creator (AI-assisted)",
+    embedUrl: "https://drive.google.com/file/d/1zR8sR9HN6WvfKncQtAQUgRakLA6hpSYU/preview",
     description:
-      "A film narrative exploring mood, tone, and cinematic experimentation through a contemporary generative previs and motion study.",
+      "An AI-assisted visual creation developed as a teaser piece, focused on mood, tone, and cinematic experimentation.",
   },
   {
-    title: "BLU",
-    role: "",
+    title: "BLU TEASER 2",
+    role: "Creator (AI-assisted)",
     embedUrl: "https://drive.google.com/file/d/13A_AA0AViW1vrPodqTiLeAEOoNAccQkt/preview",
     description:
-      "A film narrative exploring atmosphere, visual storytelling, and contemporary generative image and motion design.",
+      "A film creation exploring atmosphere, visual storytelling, and contemporary AI-assisted image and motion design.",
   },
   {
-    title: "JUNCOS",
-    role: "",
+    title: "JUNCOS TEASER 2",
+    role: "Creator (AI-assisted)",
     embedUrl: "https://drive.google.com/file/d/1agcH9jUhzXeY_AEUAGzj8TJK1DaO6lWZ/preview",
     description:
-      "A film narrative built through a generative creative workflow, combining visual concept development with experimental cinematic form.",
+      "A cinematic teaser built through AI-assisted creative workflow, combining visual concept development with experimental form.",
   },
 ];
 
@@ -64,12 +64,12 @@ export default function FilmPage() {
 
         <section className="mb-28 text-center">
           <h1 className={`${cormorant.className} text-7xl tracking-[0.08em]`}>
-            Cinematic Narratives
+            Film Creations
           </h1>
           <p
             className={`${inter.className} mt-6 text-sm uppercase tracking-[0.4em] text-white/50`}
           >
-            Generative Previs / Motion Study
+            AI-assisted Works
           </p>
         </section>
 

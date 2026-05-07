@@ -121,7 +121,7 @@ export default function CVPage() {
             Nemesio Gil Pineda
           </h2>
           <p className={`${inter.className} mt-8 leading-8 text-white/75`}>
-            Writer, director, and visual culture scholar working across
+            Educator, writer, director, and visual culture scholar working across
             higher education, theater, film, literature, and media. His work
             bridges academic rigor and creative practice through teaching,
             directing, mentorship, multilingual communication, and

@@ -24,7 +24,7 @@ const cards = [
     image: "/theaters.jpg",
   },
   {
-    title: "CINEMATIC NARRATIVES",
+    title: "FILM CREATIONS",
     href: "/film",
     image: "/films.jpg",
   },
@@ -66,7 +66,7 @@ export default function Home() {
             <p
               className={`${inter.className} mt-5 text-sm uppercase tracking-[0.4em] text-white/60`}
             >
-              Writer / Director / Scholar
+              Filmmaker / Creator
             </p>
           </div>
         </section>

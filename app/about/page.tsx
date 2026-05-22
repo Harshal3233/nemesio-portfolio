@@ -81,14 +81,6 @@ export default function AboutPage() {
                 balance between intellectual rigor and artistic direction.
               </p>
 
-              <p>
-                Over the years, he has worked across university teaching,
-                mentorship, theater direction, and writing, building a profile
-                that is both academic and production-oriented. This dual
-                perspective allows him to approach creative work with analytical
-                depth, and scholarly work with a strong visual and narrative
-                sensibility.
-              </p>
 
               <p>
                 His portfolio includes theatrical productions in the Caribbean,

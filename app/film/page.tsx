@@ -15,31 +15,24 @@ const filmWorks = [
   {
     title: "BLACK SHEEP",
     role: "",
-    embedUrl: "https://drive.google.com/file/d/1ooZpdG1dNxkV05jd4Xll9mQQQg7WGXiv/preview",
+    video: "/blacksheep.mp4",
     description:
       "A film narrative exploring mood, tone, and cinematic experimentation through a contemporary generative previs and motion study.",
   },
   {
     title: "VAMPIRO",
     role: "",
-    embedUrl: "https://drive.google.com/file/d/1uem7FsvJ0YJvv6mrrOI_5qQeDHX4Zqon/preview",
+    video: "/vampiro.mp4",
     description:
       "A film narrative exploring atmosphere, tension, and visual experimentation through contemporary generative cinematic language.",
   },
   {
     title: "BLU",
     role: "",
-    embedUrl: "https://drive.google.com/file/d/1UxZtKjq6CafjcZnoP43fikDnFB__u8mr/preview",
+    video: "/blu.mp4",
     description:
       "A film narrative exploring atmosphere, visual storytelling, and contemporary generative image and motion design.",
-  },
-  {
-    title: "JUNCOS",
-    role: "",
-    embedUrl: "https://drive.google.com/file/d/1FS4QM7WsxX_u7d9dAZmHCipbJgPTgzt1/preview",
-    description:
-      "A film narrative built through a generative creative workflow, combining visual concept development with experimental cinematic form.",
-  },
+  },  { title: "THE WINDS", video: "/thewinds.mp4", description: "A film narrative built through a generative creative workflow, combining visual concept development with experimental cinematic form.", },
 ];
 
 export default function FilmPage() {
@@ -87,13 +80,7 @@ export default function FilmPage() {
               className="grid items-center gap-12 xl:grid-cols-[1.2fr_0.9fr]"
             >
               <div className="overflow-hidden bg-neutral-950 shadow-[0_0_0_rgba(255,255,255,0)] transition duration-500 hover:shadow-[0_0_35px_rgba(255,255,255,0.08)]">
-                <iframe
-                  className="aspect-video w-full"
-                  src={work.embedUrl}
-                  title={work.title}
-                  allow="autoplay"
-                  allowFullScreen
-                />
+                <video className="aspect-video w-full" controls playsInline preload="metadata"><source src={work.video} type="video/mp4" /></video>
               </div>
 
               <div>
@@ -129,3 +116,4 @@ export default function FilmPage() {
     </main>
   );
 }
+

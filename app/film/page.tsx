@@ -14,6 +14,13 @@ const inter = Inter({
   weight: ["400", "500", "600"],
 });
 
+const videoPosters: Record<string, string> = {
+  "BLACK SHEEP": "/black-sheep-thumb.jpg",
+  VAMPIRO: "/vampiro-thumb.jpg",
+  BLU: "/blu-thumb.jpg",
+  "THE WINDS": "/the-winds-thumb.jpg",
+};
+
 const text = {
   en: {
     main: "Main",
@@ -92,25 +99,25 @@ const text = {
         title: "BLACK SHEEP",
         video: "/blacksheep.mp4",
         description:
-          "Una narrativa cinematografica que explora ambiente, tono y experimentacion visual mediante un proceso contemporaneo de previs generativa y estudio de movimiento.",
+          "Una narrativa cinematográfica que explora ambiente, tono y experimentación visual mediante un proceso contemporáneo de previsión generativa y estudio de movimiento.",
       },
       {
         title: "VAMPIRO",
         video: "/vampiro.mp4",
         description:
-          "Una narrativa cinematografica que explora atmosfera, tension y experimentacion visual mediante un lenguaje cinematografico generativo contemporaneo.",
+          "Una narrativa audiovisual que explora la leyenda vampiresa mediante un lenguaje cinematográfico generativo contemporáneo en los años 30.",
       },
       {
         title: "BLU",
         video: "/blu.mp4",
         description:
-          "Una narrativa cinematografica que explora atmosfera, relato visual y diseno contemporaneo de imagen y movimiento generativo.",
+          "Una historia inédita que explora la licantropía en el siglo 18 a través de la imagen y el movimiento generativo.",
       },
       {
         title: "THE WINDS",
         video: "/thewinds.mp4",
         description:
-          "Una narrativa cinematografica construida mediante un flujo creativo generativo, combinando desarrollo visual del concepto y forma cinematografica experimental.",
+          "Tomando lugar en el siglo 19 y  construida mediante un flujo creativo generativo, combinando desarrollo visual del concepto y forma experimental.",
       },
     ],
   },
@@ -158,8 +165,15 @@ export default function FilmPage() {
           {t.works.map((work) => (
             <div key={work.title} className="grid items-center gap-12 xl:grid-cols-[1.2fr_0.9fr]">
               <div className="overflow-hidden bg-neutral-950 shadow-[0_0_0_rgba(255,255,255,0)] transition duration-500 hover:shadow-[0_0_35px_rgba(255,255,255,0.08)]">
-                <video className="aspect-video w-full" controls playsInline preload="metadata">
+                <video
+                  className="aspect-video w-full"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster={videoPosters[work.title]}
+                >
                   <source src={work.video} type="video/mp4" />
+                  Your browser does not support the video tag.
                 </video>
               </div>
 
@@ -178,7 +192,7 @@ export default function FilmPage() {
 
         <footer className={`${inter.className} mt-28 space-y-3 pb-10 text-center`}>
           <p className="text-lg tracking-[0.08em]">ngilp2022@gmail.com</p>
-          <p className="text-lg tracking-[0.08em]">+39 347 688 3545</p>
+          <p className="text-lg tracking-[0.08em]">1-787-342-6071</p>
         </footer>
       </section>
     </main>

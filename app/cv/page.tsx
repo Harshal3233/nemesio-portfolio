@@ -100,7 +100,7 @@ const text = {
     subtitle: "Profilo Accademico e Creativo",
     name: "Nemesio Gil Pineda",
     intro:
-      "Scrittore, regista e studioso della cultura visiva, attivo tra istruzione superiore, teatro, cinema, letteratura e media. Il suo lavoro collega rigore accademico e pratica creativa attraverso insegnamento, regia, mentoring, comunicazione multilingue e analisi culturale interdisciplinare.",
+      "Sceneggiatore, regista e studioso della cultura visiva, attivo tra istruzione superiore, teatro, cinema, letteratura e media. Il suo lavoro collega rigore accademico e pratica creativa attraverso insegnamento, regia, mentoring, comunicazione multilingue e analisi culturale interdisciplinare.",
     experience: "Esperienza",
     education: "Formazione",
     languages: "Lingue",
@@ -119,7 +119,7 @@ const text = {
       },
       {
         period: "2019 - 2022",
-        title: "Professore Assistente di Lingue e Letteratura",
+        title: "Professore di Lingue e Letteratura",
         place: "Bard Early College, New Orleans",
         points: [
           "Ha insegnato in un programma universitario per studenti delle scuole superiori.",
@@ -129,7 +129,7 @@ const text = {
       },
       {
         period: "2011 - 2019",
-        title: "Professore Aggiunto di Inglese",
+        title: "Professore di Inglese",
         place: "University of Puerto Rico, Rio Piedras Campus",
         points: [
           "Ha insegnato cinema, letteratura inglese, teoria, scrittura e cultura visiva.",
@@ -138,7 +138,7 @@ const text = {
       },
     ],
     edu: [
-      "Master in Media and Entertainment, Rome Business School, 2026 (in corso)",
+      "Master in Media and Entertainment, Rome Business School, 2026",
       "PhD in Inglese (Letteratura e Cultura Visiva), University of Puerto Rico, 2016",
       "MA in Inglese (Cinema e Letteratura), University of Puerto Rico, 2003",
       "BFA in Produzione Cinematografica, Art Center College of Design, 1992",
@@ -148,7 +148,7 @@ const text = {
       "Spagnolo - Madrelingua",
       "Francese - B2",
       "Portoghese - B2",
-      "Italiano - B1 (in corso)",
+      "Italiano - B2",
       "Tedesco - A2",
     ],
     skillList: [
@@ -177,55 +177,55 @@ const text = {
     subtitle: "Perfil Academico y Creativo",
     name: "Nemesio Gil Pineda",
     intro:
-      "Escritor, director y estudioso de la cultura visual, con trabajo en educacion superior, teatro, cine, literatura y medios. Su obra conecta el rigor academico y la practica creativa mediante la ensenanza, la direccion, la mentorias, la comunicacion multilingue y el analisis cultural interdisciplinario.",
+      "Guionista, director y estudioso de la cultura visual, con trabajo en educacion superior, teatro, cine, literatura y medios. Su obra conecta el rigor academico y la practica creativa mediante la ensenanza, la direccion, la mentorias, la comunicacion multilingue y el analisis cultural interdisciplinario.",
     experience: "Experiencia",
-    education: "Educacion",
+    education: "Educación",
     languages: "Idiomas",
     skills: "Competencias",
     recognition: "Reconocimientos",
     exp: [
       {
-        period: "2023 - 2025",
+        period: "2023 - presente",
         title: "Director / Profesor de Artes Teatrales",
         place: "Sky Kingdom / Lanza Arts School",
         points: [
-          "Dirigio y superviso multiples producciones teatrales.",
-          "Coordino aspectos artisticos y tecnicos con equipos de produccion.",
-          "Enseno escritura, direccion y actuacion.",
+          "Dirigió y supervisó múltiples producciones teatrales.",
+          "Coordinó aspectos artísticos y técnicos con equipos de producción.",
+          "Enseñó escritura, dirección y actuación.",
         ],
       },
       {
         period: "2019 - 2022",
-        title: "Profesor Asistente de Lenguas y Literatura",
+        title: "Profesor de Lenguas y Literatura",
         place: "Bard Early College, New Orleans",
         points: [
-          "Enseno en un programa universitario para estudiantes de secundaria.",
-          "Dirigio experiencias de primer ano universitario y mentorias.",
-          "Impartio ensenanza interdisciplinaria en literatura, escritura y cultura visual.",
+          "Enseñó en un programa universitario para estudiantes de secundaria.",
+          "Dirigió experiencias de primer año universitario y mentorías.",
+          "Impartió enseñanza interdisciplinaria en literatura, escritura y cultura visual.",
         ],
       },
       {
         period: "2011 - 2019",
-        title: "Profesor Adjunto de Ingles",
+        title: "Profesor de Inglés",
         place: "University of Puerto Rico, Rio Piedras Campus",
         points: [
-          "Enseno cine, literatura inglesa, teoria, escritura y cultura visual.",
-          "Trabajo en niveles intermedios y avanzados.",
+          "Enseñó cine, literatura inglesa, teoría, escritura y cultura visual.",
+          "Trabajó en niveles intermedios y avanzados a nivel de bachillerato.",
         ],
       },
     ],
     edu: [
-      "Master in Media and Entertainment, Rome Business School, 2026 (en curso)",
-      "PhD en Ingles (Literatura y Cultura Visual), University of Puerto Rico, 2016",
-      "MA en Ingles (Cine y Literatura), University of Puerto Rico, 2003",
-      "BFA en Produccion Cinematografica, Art Center College of Design, 1992",
+      "Maestría Internacional en Media and Entertainment, Rome Business School, 2026",
+      "PhD en Inglés (Literatura y Cultura Visual), University of Puerto Rico, 2016",
+      "MA en Inglés (Cine y Literatura), University of Puerto Rico, 2003",
+      "BFA en Producción Cinematográfica, Art Center College of Design, 1992",
     ],
     langList: [
       "Ingles - Nativo",
       "Espanol - Nativo",
       "Frances - B2",
       "Portugues - B2",
-      "Italiano - B1 (en curso)",
+      "Italiano - B2",
       "Aleman - A2",
     ],
     skillList: [
@@ -333,7 +333,7 @@ export default function CVPage() {
 
         <footer className={`${inter.className} mt-28 space-y-3 pb-10 text-center`}>
           <p className="text-lg tracking-[0.08em]">ngilp2022@gmail.com</p>
-          <p className="text-lg tracking-[0.08em]">+39 347 688 3545</p>
+          <p className="text-lg tracking-[0.08em]">1-787-342-6071</p>
         </footer>
       </section>
     </main>

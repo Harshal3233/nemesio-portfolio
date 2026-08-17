@@ -29,19 +29,19 @@ const text = {
     main: "Home",
     about: "Profilo",
     name: "Nemesio Gil",
-    subtitle: "Scrittore / Regista / Studioso",
+    subtitle: "Sceneggiatore / Regista / Ricercatore",
     cv: "CV",
     theater: "TEATRO",
-    film: "NARRATIVE CINEMATICHE",
+    film: "NARRAZIONI CINEMATOGRAFICHE",
   },
   es: {
     main: "Inicio",
     about: "Acerca de",
     name: "Nemesio Gil",
-    subtitle: "Escritor / Director / Academico",
+    subtitle: "Guionista / Director / Academico",
     cv: "CV",
     theater: "TEATRO",
-    film: "NARRATIVAS CINEMATICAS",
+    film: "AUDIOVISUAL",
   },
 };
 
@@ -151,7 +151,7 @@ export default function Home() {
 
         <footer className={`${inter.className} mt-24 space-y-3 pb-10`}>
           <p className="text-lg tracking-[0.08em]">ngilp2022@gmail.com</p>
-          <p className="text-lg tracking-[0.08em]">+39 347 688 3545</p>
+          <p className="text-lg tracking-[0.08em]">1-787-342-6071</p>
         </footer>
       </section>
     </main>

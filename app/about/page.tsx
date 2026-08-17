@@ -36,11 +36,11 @@ const text = {
     heading: "Profilo",
     subtitle: "Profilo e Prospettiva",
     lead:
-      "Nemesio Gil Pineda e un educatore, scrittore, regista e studioso della cultura visiva, il cui lavoro si muove tra ricerca accademica, produzione teatrale, linguaggio cinematografico e sperimentazione creativa.",
+      "Nemesio Gil Pineda è un docente, scrittore, regista e studioso di cultura visiva, il cui lavoro si muove all'intersezione tra ricerca accademica, produzione teatrale, linguaggio cinematografico e sperimentazione creativa.",
     body1:
-      "La sua pratica unisce istruzione superiore, letteratura, performance e media, con una forte attenzione alla narrazione, al pensiero interdisciplinare e all'interpretazione culturale. Tra aule, palcoscenici e progetti creativi, il suo lavoro riflette un equilibrio tra rigore intellettuale e direzione artistica.",
+      "La sua attività unisce insegnamento universitario, letteratura, performance e media, con un focus centrale sulla narrazione, il pensiero interdisciplinare e l'interpretazione culturale. Tra aule accademiche, palcoscenico e progetti creativi, il suo percorso riflette un costante equilibrio tra rigore intellettuale e direzione artistica.",
     body2:
-      "Il suo portfolio include produzioni teatrali nei Caraibi, lavoro accademico in letteratura e cultura visiva, e piu recenti esplorazioni cinematografiche assistite dall'intelligenza artificiale che ampliano il suo interesse per immagine, struttura, atmosfera e sperimentazione.",
+      "Il suo portfolio include produzioni teatrali realizzate nei Caraibi, ricerche in ambito letterario e visivo, e più recenti esplorazioni nel cinema generativo assistito dall'intelligenza artificiale, che ne ampliano l'interesse per la composizione dell'immagine, la struttura drammaturgica, l'atmosfera e la sperimentazione formale.",
   },
   es: {
     main: "Inicio",
@@ -49,11 +49,11 @@ const text = {
     heading: "Acerca de",
     subtitle: "Perfil y Perspectiva",
     lead:
-      "Nemesio Gil Pineda es educador, escritor, director y estudioso de la cultura visual, cuyo trabajo se mueve entre el estudio academico, la produccion teatral, el lenguaje cinematografico y la experimentacion creativa.",
+      "Nemesio Gil Pineda es educador, guionista, director y estudioso de la cultura visual, cuyo trabajo se mueve entre el estudio académico, la producción teatral, el lenguaje cinematográfico y la experimentación creativa.",
     body1:
-      "Su practica une la educacion superior, la literatura, la performance y los medios, con un fuerte enfasis en la narracion, el pensamiento interdisciplinario y la interpretacion cultural. En aulas, escenarios y proyectos creativos, su trabajo refleja un equilibrio entre rigor intelectual y direccion artistica.",
+      "Su práctica une la educación superior, la literatura, la performance y los medios, con un fuerte énfasis en la narración, el pensamiento interdisciplinario y la interpretación cultural. En aulas, escenarios y proyectos creativos, su trabajo refleja un equilibrio entre rigor intelectual y dirección artística.",
     body2:
-      "Su portfolio incluye producciones teatrales en el Caribe, trabajo academico en literatura y cultura visual, y nuevas exploraciones cinematograficas asistidas por inteligencia artificial que amplian su interes por la imagen, la estructura, el ambiente y la experimentacion.",
+      "Su portafolio incluye producciones teatrales en el Caribe, trabajo académico en literatura y cultura visual, y nuevas exploraciones cinematográficas asistidas por inteligencia artificial que amplían su interés por la imagen, la estructura, el ambiente y la experimentación.",
   },
 };
 
@@ -129,7 +129,7 @@ export default function AboutPage() {
 
         <footer className={`${inter.className} mt-28 space-y-3 pb-10 text-center`}>
           <p className="text-lg tracking-[0.08em]">ngilp2022@gmail.com</p>
-          <p className="text-lg tracking-[0.08em]">+39 347 688 3545</p>
+          <p className="text-lg tracking-[0.08em]">1-787-342-6071</p>
         </footer>
       </section>
     </main>

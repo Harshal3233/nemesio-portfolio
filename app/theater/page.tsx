@@ -87,19 +87,19 @@ const text = {
         title: "Hasta Que Las Suegras Nos Separen",
         videoUrl: "https://www.youtube.com/embed/XMPRRoWyVpA",
         description:
-          "Una comedia familiar construida mediante trabajo de elenco, ritmo comico y direccion escenica.",
+          "Una comedia familiar construida mediante trabajo de elenco, ritmo cómico y dirección escénica.",
       },
       {
         title: "El Martes Salimos Para Marte",
         videoUrl: "https://www.youtube.com/embed/iqAV0eB_H2I",
         description:
-          "Una obra teatral impulsada por encuadre imaginativo, movimiento y un tono visual ludico.",
+          "Una obra teatral impulsada por encuadre imaginativo, movimiento y un tono visual lúdico.",
       },
       {
         title: "Los Cascos de Rogelio",
         videoUrl: "https://www.youtube.com/embed/a3f-XbU_AN8",
         description:
-          "Una produccion escenica dinamica centrada en la direccion de personajes y el ritmo teatral.",
+          "Una producción escénica dinámica centrada en la dirección de personajes y el ritmo teatral.",
       },
     ],
   },
@@ -203,7 +203,7 @@ export default function TheaterPage() {
 
         <footer className={`${inter.className} mt-28 space-y-3 pb-10 text-center`}>
           <p className="text-lg tracking-[0.08em]">ngilp2022@gmail.com</p>
-          <p className="text-lg tracking-[0.08em]">+39 347 688 3545</p>
+          <p className="text-lg tracking-[0.08em]">1-787-342-6071</p>
         </footer>
       </section>
     </main>

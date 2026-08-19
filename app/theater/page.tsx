@@ -175,7 +175,7 @@ export default function TheaterPage() {
           ))}
         </section>
 
-        <section className="mt-36">
+        <section id="posters" className="mt-36 scroll-mt-10">
           <h2 className={`${cormorant.className} text-center text-5xl tracking-[0.08em]`}>
             {t.posters}
           </h2>

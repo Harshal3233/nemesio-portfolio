@@ -177,7 +177,11 @@ export default function FilmPage() {
 
         <section className="space-y-28">
           {t.works.map((work) => (
-            <div key={work.title} className="grid items-center gap-12 xl:grid-cols-[1.2fr_0.9fr]">
+            <div
+              key={work.title}
+              id={work.title.toLowerCase().replaceAll(" ", "-")}
+              className="grid scroll-mt-10 items-center gap-12 xl:grid-cols-[1.2fr_0.9fr]"
+            >
               <FilmPreview
                 title={work.title}
                 video={work.video}

@@ -20,6 +20,7 @@ const text = {
   en: {
     main: "Main",
     about: "About",
+    archive: "Archive",
     name: "Nemesio Gil",
     subtitle: "Writer / Director / Scholar",
     cv: "CV",
@@ -32,6 +33,7 @@ const text = {
   it: {
     main: "Home",
     about: "Profilo",
+    archive: "Archivio",
     name: "Nemesio Gil",
     subtitle: "Sceneggiatore / Regista / Ricercatore",
     cv: "CV",
@@ -44,6 +46,7 @@ const text = {
   es: {
     main: "Inicio",
     about: "Acerca de",
+    archive: "Archivo",
     name: "Nemesio Gil",
     subtitle: "Guionista / Director / Academico",
     cv: "CV",
@@ -80,8 +83,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white">
       <section className="mx-auto max-w-[1900px] px-10 py-10">
-        <header className="mb-16 flex items-center justify-between gap-10">
-          <nav className={`${cormorant.className} flex items-center gap-10`}>
+        <header className="home-header mb-16 flex items-center justify-between gap-10">
+          <nav className={`${cormorant.className} home-nav flex items-center gap-10`}>
             <Link
               href="/"
               className="border-b border-white pb-1 text-3xl tracking-[0.1em]"
@@ -95,9 +98,16 @@ export default function Home() {
             >
               {t.about}
             </Link>
+
+            <Link
+              href="/archive"
+              className="text-3xl tracking-[0.1em] text-white/80 transition hover:text-white"
+            >
+              {t.archive}
+            </Link>
           </nav>
 
-          <div className={`${inter.className} flex items-center gap-3 text-sm tracking-[0.2em]`}>
+          <div className={`${inter.className} home-languages flex items-center gap-3 text-sm tracking-[0.2em]`}>
             <button
               onClick={() => setLang("en")}
               className={lang === "en" ? "text-white" : "text-white/40 hover:text-white"}

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Cormorant_Garamond, Inter } from "next/font/google";
+import FilmPreview from "../components/film-preview";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -21,6 +22,13 @@ const videoPosters: Record<string, string> = {
   "THE WINDS": "/the-winds-thumb.jpg",
 };
 
+const videoTeasers: Record<string, string> = {
+  "BLACK SHEEP": "/blacksheep-teaser.mp4",
+  VAMPIRO: "/vampiro-teaser.mp4",
+  BLU: "/blu-teaser.mp4",
+  "THE WINDS": "/thewinds-teaser.mp4",
+};
+
 const text = {
   en: {
     main: "Main",
@@ -28,6 +36,8 @@ const text = {
     film: "Film",
     heading: "Cinematic Narratives",
     subtitle: "Generative Previs / Motion Study",
+    preview: "Hover to preview",
+    watch: "Click to watch full film",
     works: [
       {
         title: "BLACK SHEEP",
@@ -61,6 +71,8 @@ const text = {
     film: "Cinema",
     heading: "Narrative Cinematiche",
     subtitle: "Previs Generativa / Studio del Movimento",
+    preview: "Passa sopra per l'anteprima",
+    watch: "Clicca per vedere il film",
     works: [
       {
         title: "BLACK SHEEP",
@@ -94,6 +106,8 @@ const text = {
     film: "Cine",
     heading: "Narrativas Cinematicas",
     subtitle: "Previs Generativa / Estudio de Movimiento",
+    preview: "Pasa el cursor para ver",
+    watch: "Haz clic para ver la película",
     works: [
       {
         title: "BLACK SHEEP",
@@ -164,18 +178,15 @@ export default function FilmPage() {
         <section className="space-y-28">
           {t.works.map((work) => (
             <div key={work.title} className="grid items-center gap-12 xl:grid-cols-[1.2fr_0.9fr]">
-              <div className="overflow-hidden bg-neutral-950 shadow-[0_0_0_rgba(255,255,255,0)] transition duration-500 hover:shadow-[0_0_35px_rgba(255,255,255,0.08)]">
-                <video
-                  className="aspect-video w-full"
-                  controls
-                  playsInline
-                  preload="metadata"
-                  poster={videoPosters[work.title]}
-                >
-                  <source src={work.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
+              <FilmPreview
+                title={work.title}
+                video={work.video}
+                teaser={videoTeasers[work.title]}
+                poster={videoPosters[work.title]}
+                previewLabel={t.preview}
+                watchLabel={t.watch}
+                labelClassName={inter.className}
+              />
 
               <div>
                 <h2 className={`${cormorant.className} mt-4 text-4xl tracking-[0.06em]`}>

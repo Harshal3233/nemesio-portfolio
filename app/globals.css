@@ -198,6 +198,86 @@ body {
   transform: translateY(-2px);
 }
 
+.film-preview {
+  position: relative;
+  border: 1px solid transparent;
+  transition: border-color 450ms ease, box-shadow 500ms ease;
+}
+
+.film-preview__teaser {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 350ms ease;
+}
+
+.film-preview__teaser--active {
+  opacity: 1;
+}
+
+.film-preview:has(.film-preview__teaser--active) {
+  cursor: pointer;
+}
+
+.film-preview:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.film-preview__hint {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(5, 5, 5, 0.74);
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  transition: opacity 300ms ease, transform 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.film-preview__play {
+  color: white;
+  font-size: 0.55rem;
+}
+
+.film-preview:hover .film-preview__hint {
+  opacity: 0;
+  transform: translateY(-6px);
+}
+
+.film-preview__watch {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 2;
+  padding: 0.58rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(5, 5, 5, 0.76);
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  animation: film-watch-arrive 350ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes film-watch-arrive {
+  from { opacity: 0; transform: translateY(7px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 @media (max-width: 767px) {
   .cinematic-card-grid:has(.cinematic-card:hover) .cinematic-card:not(:hover) {
     opacity: 1;
@@ -213,6 +293,12 @@ body {
   }
 }
 
+@media (hover: none), (pointer: coarse) {
+  .film-preview__hint {
+    display: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .ng-transition,
   .ng-transition__mark,
@@ -223,7 +309,11 @@ body {
   .cinematic-card__image img,
   .cinematic-card__veil,
   .cinematic-card__explore,
-  .cinematic-card__title {
+  .cinematic-card__title,
+  .film-preview,
+  .film-preview__hint,
+  .film-preview__teaser,
+  .film-preview__watch {
     animation: none !important;
     transition-duration: 1ms !important;
   }

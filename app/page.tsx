@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Cormorant_Garamond, Inter } from "next/font/google";
+import ShowreelModal from "./components/showreel-modal";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -24,6 +25,9 @@ const text = {
     cv: "CV",
     theater: "THEATER",
     film: "CINEMATIC NARRATIVES",
+    showreel: "Play Showreel",
+    showreelTitle: "Nemesio Gil — Selected Works",
+    close: "Close",
   },
   it: {
     main: "Home",
@@ -33,6 +37,9 @@ const text = {
     cv: "CV",
     theater: "TEATRO",
     film: "NARRAZIONI CINEMATOGRAFICHE",
+    showreel: "Guarda lo Showreel",
+    showreelTitle: "Nemesio Gil — Opere Selezionate",
+    close: "Chiudi",
   },
   es: {
     main: "Inicio",
@@ -42,6 +49,9 @@ const text = {
     cv: "CV",
     theater: "TEATRO",
     film: "AUDIOVISUAL",
+    showreel: "Ver Showreel",
+    showreelTitle: "Nemesio Gil — Obras Seleccionadas",
+    close: "Cerrar",
   },
 };
 
@@ -124,6 +134,14 @@ export default function Home() {
             >
               {t.subtitle}
             </p>
+
+            <ShowreelModal
+              buttonLabel={t.showreel}
+              closeLabel={t.close}
+              title={t.showreelTitle}
+              buttonClassName={inter.className}
+              titleClassName={cormorant.className}
+            />
           </div>
         </section>
 

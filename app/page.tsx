@@ -127,21 +127,25 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="grid gap-16 md:grid-cols-2 xl:grid-cols-3">
+        <section className="cinematic-card-grid grid gap-16 md:grid-cols-2 xl:grid-cols-3">
           {cards.map((card) => (
-            <Link key={card.title} href={card.href} className="group block">
-              <div className="overflow-hidden bg-neutral-950">
+            <Link key={card.title} href={card.href} className="cinematic-card group block">
+              <div className="cinematic-card__image overflow-hidden bg-neutral-950">
                 <Image
                   src={card.image}
                   alt={card.title}
                   width={900}
                   height={1200}
-                  className="h-[520px] w-full object-cover transition duration-500 group-hover:scale-[1.03] group-hover:opacity-90"
+                  className="h-[520px] w-full object-cover"
                 />
+                <div className="cinematic-card__veil" />
+                <span className={`${inter.className} cinematic-card__explore`}>
+                  Explore <span aria-hidden="true">→</span>
+                </span>
               </div>
 
               <h2
-                className={`${cormorant.className} mt-6 text-center text-2xl tracking-[0.15em] text-white/90 transition group-hover:text-white`}
+                className={`${cormorant.className} cinematic-card__title mt-6 text-center text-2xl tracking-[0.15em] text-white/90`}
               >
                 {card.title}
               </h2>

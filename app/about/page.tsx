@@ -36,7 +36,7 @@ const text = {
     heading: "Profilo",
     subtitle: "Profilo e Prospettiva",
     lead:
-      "Nemesio Gil Pineda è un docente, scrittore, regista e studioso di cultura visiva, il cui lavoro si muove all'intersezione tra ricerca accademica, produzione teatrale, linguaggio cinematografico e sperimentazione creativa.",
+      "Nemesio Gil Pineda è un docente, sceneggiatore, regista e studioso di cultura visiva, il cui lavoro si muove all'intersezione tra ricerca accademica, produzione teatrale, linguaggio cinematografico e sperimentazione creativa.",
     body1:
       "La sua attività unisce insegnamento universitario, letteratura, performance e media, con un focus centrale sulla narrazione, il pensiero interdisciplinare e l'interpretazione culturale. Tra aule accademiche, palcoscenico e progetti creativi, il suo percorso riflette un costante equilibrio tra rigore intellettuale e direzione artistica.",
     body2:

@@ -23,7 +23,7 @@ const text = {
     subtitle: "Academic and Creative Profile",
     name: "Nemesio Gil Pineda",
     intro:
-      "Writer, director, and visual culture scholar working across higher education, theater, film, literature, and media. His work bridges academic rigor and creative practice through teaching, directing, mentorship, multilingual communication, and interdisciplinary cultural analysis.",
+      "Screenwriter, director, and visual culture scholar working across higher education, theater, film, literature, and digital media. His work bridges academic rigor and creative practice through teaching, directing, mentorship, multilingual communication, and interdisciplinary cultural analysis.",
     experience: "Experience",
     education: "Education",
     languages: "Languages",
@@ -31,7 +31,7 @@ const text = {
     recognition: "Recognition",
     exp: [
       {
-        period: "2023 - 2025",
+        period: "2023 - PRESENT",
         title: "Director / Professor of Theater Arts",
         place: "Sky Kingdom / Lanza Arts School",
         points: [
@@ -61,7 +61,7 @@ const text = {
       },
     ],
     edu: [
-      "Master in Media and Entertainment, Rome Business School, 2026 (in progress)",
+      "Master in Media and Entertainment, Rome Business School, 2026",
       "PhD in English (Literature and Visual Culture), University of Puerto Rico, 2016",
       "MA in English (Film and Literature), University of Puerto Rico, 2003",
       "BFA in Film Production, Art Center College of Design, 1992",
@@ -71,7 +71,7 @@ const text = {
       "Spanish - Native",
       "French - B2",
       "Portuguese - B2",
-      "Italian - B1 (in progress)",
+      "Italian - B2",
       "German - A2",
     ],
     skillList: [
@@ -100,7 +100,7 @@ const text = {
     subtitle: "Profilo Accademico e Creativo",
     name: "Nemesio Gil Pineda",
     intro:
-      "Sceneggiatore, regista e studioso della cultura visiva, attivo tra istruzione superiore, teatro, cinema, letteratura e media. Il suo lavoro collega rigore accademico e pratica creativa attraverso insegnamento, regia, mentoring, comunicazione multilingue e analisi culturale interdisciplinare.",
+      "Sceneggiatore, regista e studioso di cultura visiva, attivo tra istruzione universitaria, teatro, cinema, letteratura e media digitali. Il suo lavoro collega rigore accademico e pratica creativa attraverso insegnamento, regia, mentoring, comunicazione multilingue e analisi culturale interdisciplinare.",
     experience: "Esperienza",
     education: "Formazione",
     languages: "Lingue",
@@ -108,7 +108,7 @@ const text = {
     recognition: "Riconoscimenti",
     exp: [
       {
-        period: "2023 - 2025",
+        period: "2023 - PRESENTE",
         title: "Direttore / Professore di Arti Teatrali",
         place: "Sky Kingdom / Lanza Arts School",
         points: [
@@ -177,7 +177,7 @@ const text = {
     subtitle: "Perfil Academico y Creativo",
     name: "Nemesio Gil Pineda",
     intro:
-      "Guionista, director y estudioso de la cultura visual, con trabajo en educacion superior, teatro, cine, literatura y medios. Su obra conecta el rigor academico y la practica creativa mediante la ensenanza, la direccion, la mentorias, la comunicacion multilingue y el analisis cultural interdisciplinario.",
+      "Guionista, director y estudioso de la cultura visual, con trabajo en educación superior, teatro, cine, literatura y medios digitales. Su obra conecta el rigor académico y la práctica creativa mediante la enseñanza, la dirección, la mentoría, la comunicación multilingüe y el análisis cultural interdisciplinario.",
     experience: "Experiencia",
     education: "Educación",
     languages: "Idiomas",
@@ -221,19 +221,19 @@ const text = {
       "BFA en Producción Cinematográfica, Art Center College of Design, 1992",
     ],
     langList: [
-      "Ingles - Nativo",
-      "Espanol - Nativo",
-      "Frances - B2",
-      "Portugues - B2",
+      "Inglés - Nativo",
+      "Español - Nativo",
+      "Francés - B2",
+      "Portugués - B2",
       "Italiano - B2",
-      "Aleman - A2",
+      "Alemán - A2",
     ],
     skillList: [
-      "Escritura academica",
-      "Analisis de cine y medios",
-      "Direccion teatral",
+      "Escritura académica",
+      "Análisis de cine y medios",
+      "Dirección teatral",
       "Estudios de cultura visual",
-      "Investigacion y mentorias",
+      "Investigación y mentorías",
       "Final Draft 12",
       "Microsoft Office Suite",
       "Apple Suite",

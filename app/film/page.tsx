@@ -23,9 +23,9 @@ const videoPosters: Record<string, string> = {
 };
 
 const videoTeasers: Record<string, string> = {
-  "BLACK SHEEP": "/blacksheep-teaser.mp4",
+  "BLACK SHEEP": "/blacksheep-teaser.mp4?v=20260926",
   VAMPIRO: "/vampiro-teaser.mp4",
-  BLU: "/blu-teaser.mp4",
+  BLU: "/blu-teaser.mp4?v=20260926",
   "THE WINDS": "/thewinds-teaser.mp4",
 };
 
@@ -41,7 +41,7 @@ const text = {
     works: [
       {
         title: "BLACK SHEEP",
-        video: "/blacksheep.mp4",
+        video: "/blacksheep.mp4?v=20260926",
         description:
           "A film narrative exploring mood, tone, and cinematic experimentation through a contemporary generative previs and motion study.",
       },
@@ -53,7 +53,7 @@ const text = {
       },
       {
         title: "BLU",
-        video: "/blu.mp4",
+        video: "/blu.mp4?v=20260926",
         description:
           "A film narrative exploring atmosphere, visual storytelling, and contemporary generative image and motion design.",
       },
@@ -61,7 +61,7 @@ const text = {
         title: "THE WINDS",
         video: "/thewinds.mp4",
         description:
-          "A film narrative built through a generative creative workflow, combining visual concept development with experimental cinematic form.",
+          "Set in the 19th century and built using a generative creative workflow, this story combines realism with the supernatural.",
       },
     ],
   },
@@ -69,14 +69,14 @@ const text = {
     main: "Home",
     about: "Profilo",
     film: "Cinema",
-    heading: "Narrative Cinematiche",
+    heading: "Narrazioni Cinematografiche",
     subtitle: "Previs Generativa / Studio del Movimento",
     preview: "Passa sopra per l'anteprima",
     watch: "Clicca per vedere il film",
     works: [
       {
         title: "BLACK SHEEP",
-        video: "/blacksheep.mp4",
+        video: "/blacksheep.mp4?v=20260926",
         description:
           "Una narrazione cinematografica che esplora atmosfera, tono e sperimentazione visiva attraverso un processo contemporaneo di previs generativa e studio del movimento.",
       },
@@ -88,7 +88,7 @@ const text = {
       },
       {
         title: "BLU",
-        video: "/blu.mp4",
+        video: "/blu.mp4?v=20260926",
         description:
           "Una narrazione cinematografica che esplora atmosfera, racconto visivo e design contemporaneo di immagine e movimento generativo.",
       },
@@ -104,14 +104,14 @@ const text = {
     main: "Inicio",
     about: "Acerca de",
     film: "Cine",
-    heading: "Narrativas Cinematicas",
+    heading: "Narrativas Audiovisuales",
     subtitle: "Previs Generativa / Estudio de Movimiento",
     preview: "Pasa el cursor para ver",
     watch: "Haz clic para ver la película",
     works: [
       {
         title: "BLACK SHEEP",
-        video: "/blacksheep.mp4",
+        video: "/blacksheep.mp4?v=20260926",
         description:
           "Una narrativa cinematográfica que explora ambiente, tono y experimentación visual mediante un proceso contemporáneo de previsión generativa y estudio de movimiento.",
       },
@@ -119,11 +119,11 @@ const text = {
         title: "VAMPIRO",
         video: "/vampiro.mp4",
         description:
-          "Una narrativa audiovisual que explora la leyenda vampiresa mediante un lenguaje cinematográfico generativo contemporáneo en los años 30.",
+          "Una narrativa audiovisual que explora la leyenda vampiresca mediante un lenguaje cinematográfico generativo contemporáneo en los años 30.",
       },
       {
         title: "BLU",
-        video: "/blu.mp4",
+        video: "/blu.mp4?v=20260926",
         description:
           "Una historia inédita que explora la licantropía en el siglo 18 a través de la imagen y el movimiento generativo.",
       },
@@ -131,7 +131,7 @@ const text = {
         title: "THE WINDS",
         video: "/thewinds.mp4",
         description:
-          "Tomando lugar en el siglo 19 y  construida mediante un flujo creativo generativo, combinando desarrollo visual del concepto y forma experimental.",
+          "Ambientada en el siglo 19 y construida mediante un flujo creativo generativo, esta historia combina el realismo y lo sobrenatural.",
       },
     ],
   },

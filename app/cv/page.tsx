@@ -45,7 +45,7 @@ const text = {
         title: "Assistant Professor of Languages and Literature",
         place: "Bard Early College, New Orleans",
         points: [
-          "Taught in an associates degree program for high school students.",
+          "Taught in an associate's degree program for high school students.",
           "Led first-year college experience and mentorship.",
           "Delivered interdisciplinary instruction across literature, writing, and visual culture.",
         ],
@@ -53,7 +53,7 @@ const text = {
       {
         period: "2011 - 2019",
         title: "Adjunct Professor of English",
-        place: "University of Puerto Rico, Rio Piedras Campus",
+        place: "University of Puerto Rico, Río Piedras Campus",
         points: [
           "Taught undergraduate film, English literature, theory, writing, and visual culture.",
           "Worked across intermediate and advanced levels.",
@@ -130,7 +130,7 @@ const text = {
       {
         period: "2011 - 2019",
         title: "Professore di Inglese",
-        place: "University of Puerto Rico, Rio Piedras Campus",
+        place: "University of Puerto Rico, Río Piedras Campus",
         points: [
           "Ha insegnato cinema, letteratura inglese, teoria, scrittura e cultura visiva.",
           "Ha lavorato con corsi di livello intermedio e avanzato.",
@@ -174,7 +174,7 @@ const text = {
     cv: "CV",
     about: "Acerca de",
     heading: "Curriculum Vitae",
-    subtitle: "Perfil Academico y Creativo",
+    subtitle: "Perfil Académico y Creativo",
     name: "Nemesio Gil Pineda",
     intro:
       "Guionista, director y estudioso de la cultura visual, con trabajo en educación superior, teatro, cine, literatura y medios digitales. Su obra conecta el rigor académico y la práctica creativa mediante la enseñanza, la dirección, la mentoría, la comunicación multilingüe y el análisis cultural interdisciplinario.",
@@ -207,7 +207,7 @@ const text = {
       {
         period: "2011 - 2019",
         title: "Profesor de Inglés",
-        place: "University of Puerto Rico, Rio Piedras Campus",
+        place: "University of Puerto Rico, Río Piedras Campus",
         points: [
           "Enseñó cine, literatura inglesa, teoría, escritura y cultura visual.",
           "Trabajó en niveles intermedios y avanzados a nivel de bachillerato.",

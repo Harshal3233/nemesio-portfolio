@@ -48,7 +48,7 @@ const text = {
     about: "Acerca de",
     archive: "Archivo",
     name: "Nemesio Gil",
-    subtitle: "Guionista / Director / Academico",
+    subtitle: "Guionista / Director / Académico",
     cv: "CV",
     theater: "TEATRO",
     film: "AUDIOVISUAL",

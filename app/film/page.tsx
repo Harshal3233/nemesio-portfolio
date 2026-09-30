@@ -25,7 +25,7 @@ const videoPosters: Record<string, string> = {
 const videoTeasers: Record<string, string> = {
   "BLACK SHEEP": "/blacksheep-teaser.mp4?v=20260926",
   VAMPIRO: "/vampiro-teaser.mp4",
-  BLU: "/blu-teaser.mp4?v=20260926",
+  BLU: "/blu-teaser.mp4?v=20260930",
   "THE WINDS": "/thewinds-teaser.mp4",
 };
 
@@ -53,7 +53,7 @@ const text = {
       },
       {
         title: "BLU",
-        video: "/blu.mp4?v=20260926",
+        video: "/blu.mp4?v=20260930",
         description:
           "A film narrative exploring atmosphere, visual storytelling, and contemporary generative image and motion design.",
       },
@@ -88,7 +88,7 @@ const text = {
       },
       {
         title: "BLU",
-        video: "/blu.mp4?v=20260926",
+        video: "/blu.mp4?v=20260930",
         description:
           "Una narrazione cinematografica che esplora atmosfera, racconto visivo e design contemporaneo di immagine e movimento generativo.",
       },
@@ -123,7 +123,7 @@ const text = {
       },
       {
         title: "BLU",
-        video: "/blu.mp4?v=20260926",
+        video: "/blu.mp4?v=20260930",
         description:
           "Una historia inédita que explora la licantropía en el siglo 18 a través de la imagen y el movimiento generativo.",
       },

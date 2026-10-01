@@ -23,7 +23,7 @@ const text = {
     heading: "About",
     subtitle: "Profile and Perspective",
     lead:
-      "Nemesio Gil Pineda is an educator, writer, director, and visual culture scholar whose work moves between academic study, theatrical production, film language, and creative experimentation.",
+      "Nemesio Gil Pineda is an educator, screenwriter, director, and visual culture scholar whose work moves between academic study, theatrical production, film language, and creative experimentation.",
     body1:
       "His practice brings together higher education, literature, performance, and media with a strong emphasis on storytelling, interdisciplinary thinking, and cultural interpretation. Across classrooms, stages, and creative projects, his work reflects a balance between intellectual rigor and artistic direction.",
     body2:

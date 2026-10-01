@@ -101,7 +101,7 @@ export default function ShowreelModal({
               preload="metadata"
               poster="/black-sheep-thumb.jpg"
             >
-              <source src="/nemesio-showreel.mp4?v=20260930" type="video/mp4" />
+              <source src="/nemesio-showreel.mp4?v=20261001" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>

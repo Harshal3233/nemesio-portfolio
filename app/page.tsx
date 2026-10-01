@@ -22,7 +22,7 @@ const text = {
     about: "About",
     archive: "Archive",
     name: "Nemesio Gil",
-    subtitle: "Writer / Director / Scholar",
+    subtitle: "Screenwriter / Director / Scholar",
     cv: "CV",
     theater: "THEATER",
     film: "CINEMATIC NARRATIVES",
